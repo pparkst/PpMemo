@@ -14,6 +14,7 @@
 		26635F552414C8940090FE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26635F542414C8940090FE13 /* Assets.xcassets */; };
 		26635F582414C8940090FE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26635F562414C8940090FE13 /* LaunchScreen.storyboard */; };
 		26635F612414D41F0090FE13 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F602414D41F0090FE13 /* Model.swift */; };
+		26635F632414D6480090FE13 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F622414D6480090FE13 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		26635F572414C8940090FE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26635F592414C8940090FE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26635F602414D41F0090FE13 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		26635F622414D6480090FE13 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				26635F562414C8940090FE13 /* LaunchScreen.storyboard */,
 				26635F592414C8940090FE13 /* Info.plist */,
 				26635F512414C8940090FE13 /* PpMemo.xcdatamodeld */,
+				26635F622414D6480090FE13 /* MemoListTableViewController.swift */,
 			);
 			path = PpMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				26635F532414C8940090FE13 /* PpMemo.xcdatamodeld in Sources */,
 				26635F492414C8940090FE13 /* AppDelegate.swift in Sources */,
+				26635F632414D6480090FE13 /* MemoListTableViewController.swift in Sources */,
 				26635F4B2414C8940090FE13 /* SceneDelegate.swift in Sources */,
 				26635F612414D41F0090FE13 /* Model.swift in Sources */,
 			);
