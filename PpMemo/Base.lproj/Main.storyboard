@@ -86,7 +86,11 @@
                         <viewLayoutGuide key="safeArea" id="fpM-8k-D7N"/>
                     </view>
                     <navigationItem key="navigationItem" title="새 메모" id="4Xb-G9-dte">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gda-71-qvU"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gda-71-qvU">
+                            <connections>
+                                <action selector="close:" destination="HvS-Mh-55n" id="iHo-OY-b2j"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="0cd-8R-Yo2"/>
                     </navigationItem>
                 </viewController>
@@ -99,7 +103,7 @@
             <objects>
                 <navigationController id="Y3P-du-omG" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="QDE-dq-fIZ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
