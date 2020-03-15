@@ -91,8 +91,15 @@
                                 <action selector="close:" destination="HvS-Mh-55n" id="iHo-OY-b2j"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="0cd-8R-Yo2"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="0cd-8R-Yo2">
+                            <connections>
+                                <action selector="Save:" destination="HvS-Mh-55n" id="fhL-Rs-lav"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoTextView" destination="vLF-8s-WrV" id="aXH-yv-P29"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6U9-Cp-P3r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +110,7 @@
             <objects>
                 <navigationController id="Y3P-du-omG" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="QDE-dq-fIZ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

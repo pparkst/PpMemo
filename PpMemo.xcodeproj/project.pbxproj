@@ -16,6 +16,7 @@
 		26635F612414D41F0090FE13 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F602414D41F0090FE13 /* Model.swift */; };
 		26635F632414D6480090FE13 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F622414D6480090FE13 /* MemoListTableViewController.swift */; };
 		26635F652414DCEC0090FE13 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F642414DCEC0090FE13 /* ComposeViewController.swift */; };
+		26635F67241E10E90090FE13 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26635F66241E10E80090FE13 /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		26635F602414D41F0090FE13 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		26635F622414D6480090FE13 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		26635F642414DCEC0090FE13 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		26635F66241E10E80090FE13 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				26635F512414C8940090FE13 /* PpMemo.xcdatamodeld */,
 				26635F622414D6480090FE13 /* MemoListTableViewController.swift */,
 				26635F642414DCEC0090FE13 /* ComposeViewController.swift */,
+				26635F66241E10E80090FE13 /* UIViewController+Alert.swift */,
 			);
 			path = PpMemo;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				26635F652414DCEC0090FE13 /* ComposeViewController.swift in Sources */,
 				26635F4B2414C8940090FE13 /* SceneDelegate.swift in Sources */,
 				26635F612414D41F0090FE13 /* Model.swift in Sources */,
+				26635F67241E10E90090FE13 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
